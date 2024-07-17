@@ -1,0 +1,66 @@
+.heading-with-6-icons {
+  max-width: 1240px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 2rem;
+  margin: 0 auto;
+}
+
+.heading-with-6-icons-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+.heading-with-6-icons-heading h5 {
+  font-weight: 500;
+  font-size: 17px;
+}
+.heading-with-6-icons-heading h1 {
+  font-size: 2.5rem;
+}
+.heading-with-6-icons-heading p {
+  max-width: 600px;
+}
+
+.heading-with-6-icon-divider {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+  gap: 10px;
+}
+.heading-with-6-icon-divider .heading-with-6-icon-line {
+  width: 150px;
+  height: 1.5px;
+  background: black;
+}
+
+.heading-with-6-icon-list {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 4rem;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+.heading-with-6-icon-list li {
+  display: flex;
+  flex: 0 0 calc(33.33% - 4rem);
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.heading-with-6-icon-list li svg {
+  font-size: 6rem;
+}
+.heading-with-6-icon-list li h5 {
+  font-size: 17px;
+  text-align: center;
+}/*# sourceMappingURL=index.module.css.map */

@@ -1,0 +1,1 @@
+export { default } from './HeadingWith6Icons.jsx';
