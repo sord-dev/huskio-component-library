@@ -1,0 +1,31 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  width: 100%;
+  background-color: var(--example-background-images);
+  color: white;
+  text-align: center;
+  position: relative;
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+}
+
+.text {
+  max-width: 800px;
+  padding: 0 2rem;
+}
+
+.title {
+  font-size: 3em;
+  margin: 0;
+  z-index: 99;
+  position: relative;
+  text-shadow: 3px 5px 2px #474747;
+}
