@@ -4,6 +4,10 @@
   "description": "Yet another react component library.",
   "main": "dist/ejs/index.js",
   "module": "dist/esm/index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository":"https://github.com/sord-dev/huskio-component-library",
   "scripts": {
     "build-lib": "rollup -c",
     "storybook": "storybook dev -p 6006",
