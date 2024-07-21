@@ -1,0 +1,46 @@
+.three-icons-with-text {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 2rem;
+  margin: 0 auto;
+}
+
+.three-icons-with-text-list {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 4rem;
+  column-gap: 4rem;
+
+  li {
+    min-width: 250px;
+    width: 100%;
+    display: flex;
+    flex: 1 0 calc(33.33% - 4rem);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+
+    svg {
+      font-size: 8rem;
+    }
+
+    h5 {
+      font-size: 24px;
+      font-weight: 400;
+      margin-bottom: 0.5rem;
+      opacity: 0.7;
+    }
+
+    p {
+      max-width: 600px;
+    }
+  }
+}

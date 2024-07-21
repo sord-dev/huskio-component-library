@@ -1,22 +1,10 @@
 import React from "react";
 import styles from "./index.module.css";
 import { FaDiamond } from "react-icons/fa6";
-
 import PropTypes from "prop-types";
 
-export default function HeadingWith6Icons({
-  topic = "TOPIC GOES HERE",
-  title = "TITLE GOES HERE",
-  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum impedit accusantium corporis quae. Ullam fuga molestias voluptatum iure atque similique tempora aut beatae, recusandae, voluptatibus asperiores saepe eos, reiciendis maiores? Laborum ut adipisci itaque aut quidem optio, nihil commodi? Officiis repellat id corrupti iste ad nemo est sit hic quas! Expedita fuga iste reprehenderit harum! Recusandae delectus similique necessitatibus inventore!",
-  icon = [
-    { icon: null, title: "Title goes here" },
-    { icon: null, title: "Title goes here" },
-    { icon: null, title: "Title goes here" },
-    { icon: null, title: "Title goes here" },
-    { icon: null, title: "Title goes here" },
-    { icon: null, title: "Title goes here" },
-  ],
-}) {
+const HeadingWith6Icons = ({ topic, title, description, icon })=> {
+
   return (
     <div className={styles["heading-with-6-icons"]}>
       <div className={styles["heading-with-6-icons-content"]}>
@@ -45,7 +33,7 @@ export default function HeadingWith6Icons({
       </ul>
     </div>
   );
-}
+};
 
 HeadingWith6Icons.propTypes = {
   topic: PropTypes.string,
@@ -53,3 +41,20 @@ HeadingWith6Icons.propTypes = {
   description: PropTypes.string,
   icon: PropTypes.array,
 };
+
+HeadingWith6Icons.defaultProps = {
+  topic: "TOPIC GOES HERE",
+  title: "TITLE GOES HERE",
+  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum impedit accusantium corporis quae. Ullam fuga molestias voluptatum iure atque similique tempora aut beatae, recusandae, voluptatibus asperiores saepe eos, reiciendis maiores? Laborum ut adipisci itaque aut quidem optio, nihil commodi? Officiis repellat id corrupti iste ad nemo est sit hic quas! Expedita fuga iste reprehenderit harum! Recusandae delectus similique necessitatibus inventore!",
+  icon: [
+    { icon: null, title: "Title goes here" },
+    { icon: null, title: "Title goes here" },
+    { icon: null, title: "Title goes here" },
+    { icon: null, title: "Title goes here" },
+    { icon: null, title: "Title goes here" },
+    { icon: null, title: "Title goes here" },
+  ],
+  _tag: "heading"
+};
+
+export default HeadingWith6Icons;

@@ -3,9 +3,10 @@ import styles from "./index.module.css";
 
 import PropTypes from "prop-types";
 
-export default function HeroBannerWithTitle({
+export default function HeroBannerWithTitleAndSubtitle({
   image,
   title,
+  subtitle,
   alt,
 }) {
   return (
@@ -16,22 +17,25 @@ export default function HeroBannerWithTitle({
         layout="fill"
         objectFit="cover"
       />
-      <div>
+      <div className={styles['text']}>
         <h1 className={styles["title"]}>{title}</h1>
+        <p className={styles["subtitle"]}>{subtitle}</p>
       </div>
     </section>
   );
 }
 
-HeroBannerWithTitle.propTypes = {
+HeroBannerWithTitleAndSubtitle.propTypes = {
   image: PropTypes.string,
   title: PropTypes.string,
+  subtitle: PropTypes.string,
   alt: PropTypes.string,
 };
 
-HeroBannerWithTitle.defaultProps = {
+HeroBannerWithTitleAndSubtitle.defaultProps = {
   image: "",
   title: "Title goes here",
+  subtitle: "Subtitle goes here",
   alt: "Hero Background Image",
   _tag: "heading"
 };
