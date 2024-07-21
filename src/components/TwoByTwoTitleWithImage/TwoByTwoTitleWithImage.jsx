@@ -61,7 +61,7 @@ TwoByTwoTitleWithImage.propTypes = {
     PropTypes.shape({
       title: PropTypes.string,
       image: PropTypes.string,
-      reverse: PropTypes.bool,
+      // reverse: PropTypes.bool,
       link: PropTypes.string,
       alt: PropTypes.string,
     })

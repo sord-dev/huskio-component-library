@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./index.module.css";
 
+import PropTypes from "prop-types";
+
 export default function ICOPRSLogos({ icon, prs, iconAlt, prsAlt }) {
   return (
     <div className={styles["logos"]}>
