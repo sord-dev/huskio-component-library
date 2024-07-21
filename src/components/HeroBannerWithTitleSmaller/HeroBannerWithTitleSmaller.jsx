@@ -3,7 +3,7 @@ import styles from "./index.module.css";
 
 import PropTypes from "prop-types";
 
-export default function HeroBannerWithTitle({
+export default function HeroBannerWithTitleSmaller({
   image,
   title,
   alt,
@@ -23,15 +23,15 @@ export default function HeroBannerWithTitle({
   );
 }
 
-HeroBannerWithTitle.propTypes = {
+HeroBannerWithTitleSmaller.propTypes = {
   image: PropTypes.string,
   title: PropTypes.string,
   alt: PropTypes.string,
 };
 
-HeroBannerWithTitle.defaultProps = {
+HeroBannerWithTitleSmaller.defaultProps = {
   image: "",
   title: "Title goes here",
-  alt: "Hero Background Image",
+  alt: "Hero Banner Image",
   _tag: "heading"
 };

@@ -1,0 +1,65 @@
+.title-with-banner-and-three-points {
+  max-width: 1240px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 2rem;
+  margin: 0 auto;
+  margin-top: 4rem;
+  gap: 20px;
+}
+.title-with-banner-and-three-points > h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-bottom: 2px solid black;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.title-with-banner-and-three-points-image {
+  height: 400px;
+  position: relative;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
+.title-with-banner-and-three-points-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-color: var(--example-background-images);
+}
+
+.title-with-banner-and-three-points-list {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 4rem;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+.title-with-banner-and-three-points-list li {
+  min-width: 250px;
+  width: 100%;
+  display: flex;
+  flex: 1 0 calc(33.33% - 4rem);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.title-with-banner-and-three-points-list li h5 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  opacity: 0.7;
+}
+.title-with-banner-and-three-points-list li p {
+  max-width: 600px;
+}/*# sourceMappingURL=index.module.css.map */

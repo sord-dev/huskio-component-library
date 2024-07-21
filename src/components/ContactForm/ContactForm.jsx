@@ -18,6 +18,7 @@ const mailtoLink = `mailto:contact@primestaysproperties.co.uk?subject=${encodeUR
 )}&body=${encodeURIComponent(body)}`;
 
 return mailtoLink;
+
 }
 
 export default function ContactForm() {

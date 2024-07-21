@@ -3,11 +3,7 @@ import PropTypes from "prop-types";
 import styles from "./index.module.css";
 import { FaArrowDown, FaArrowRight, FaDiamond } from "react-icons/fa6";
 
-const HeadingWith4IconsAndArrows = ({ title, icon }) => {
-
-  const handleLogProps = () => {
-    console.log({ title, icon });
-  };
+const HeadingWith4IconsAndArrows = forwardRef(({ title, icon }, ref) => {
 
   return (
     <section className={styles["heading-with-4-icon-and-arrows"]}>
@@ -44,7 +40,7 @@ const HeadingWith4IconsAndArrows = ({ title, icon }) => {
       </ul>
     </section>
   );
-};
+});
 
 HeadingWith4IconsAndArrows.propTypes = {
   title: PropTypes.string,
@@ -81,6 +77,7 @@ HeadingWith4IconsAndArrows.defaultProps = {
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta neque, officia rerum cum voluptatum asperiores quos! Dolor, ipsa ea eos laborum laboriosam doloribus voluptate quisquam sequi molestiae temporibus officia eveniet?",
     },
   ],
+  _tag: "heading"
 };
 
 export default HeadingWith4IconsAndArrows;

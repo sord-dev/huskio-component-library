@@ -1,0 +1,13 @@
+.full-title-banner {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  text-align: center;
+}
+.full-title-banner h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  text-align: center;
+}/*# sourceMappingURL=index.module.css.map */

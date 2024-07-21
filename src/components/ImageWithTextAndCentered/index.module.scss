@@ -1,0 +1,86 @@
+.image-with-text-and-centered {
+  max-width: 1280px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 2rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.image-with-text-and-centered-image {
+  flex: 1;
+  background-color: var(--example-background-images);
+  width: 500px;
+  height: 450px;
+  margin-right: 20px;
+  position: relative;
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+}
+
+.image-with-text-and-centered-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  &.reversed {
+    flex-direction: row-reverse;
+  }
+}
+
+.image-with-text-and-centered-content {
+  flex: 1;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.image-with-text-and-centered-title {
+  font-size: 2.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-bottom: 2px solid black;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.image-with-text-and-centered-description {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.image-with-text-and-centered-button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .image-with-text-and-centered, .image-with-text-and-centered-container {
+    flex-direction: column !important;
+  }
+  
+  .image-with-text-and-centered-image {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  
+  .image-with-text-and-centered-content {
+    max-width: 100%;
+  }
+}
