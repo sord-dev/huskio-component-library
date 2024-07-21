@@ -33,5 +33,5 @@ HeroBannerWithTitle.defaultProps = {
   image: "",
   title: "Title goes here",
   alt: "Hero Background Image",
-  _tag: "heading"
+  _tag: "heading-hero"
 };

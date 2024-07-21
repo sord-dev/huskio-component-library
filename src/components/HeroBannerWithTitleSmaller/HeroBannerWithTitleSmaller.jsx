@@ -33,5 +33,5 @@ HeroBannerWithTitleSmaller.defaultProps = {
   image: "",
   title: "Title goes here",
   alt: "Hero Banner Image",
-  _tag: "heading"
+  _tag: "heading-hero"
 };

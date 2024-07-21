@@ -37,5 +37,5 @@ HeroBannerWithTitleAndSubtitle.defaultProps = {
   title: "Title goes here",
   subtitle: "Subtitle goes here",
   alt: "Hero Background Image",
-  _tag: "heading"
+  _tag: "heading-hero"
 };
