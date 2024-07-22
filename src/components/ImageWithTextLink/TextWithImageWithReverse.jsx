@@ -48,5 +48,5 @@ ImageWithTextLink.defaultProps = {
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid ipsum deserunt inventore quis, molestias, vero laudantium id modi, saepe odit ab! Possimus maxime veritatis, porro deleniti quisquam sed vitae eius! Autem ab ex molestiae sint fugit impedit doloremque commodi laborum, dicta tempore unde, ipsum, consequatur nam laudantium cupiditate! Explicabo nihil placeat totam cumque sequi nesciunt enim id atque rem ipsam!",
   link: "/",
   alt: "Background Image",
-  _tag: "content"
+  _tag: "content-image"
 };

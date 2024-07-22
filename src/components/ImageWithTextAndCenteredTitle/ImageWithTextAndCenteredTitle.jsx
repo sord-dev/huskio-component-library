@@ -46,5 +46,5 @@ ImageWithTextAndCenteredTitle.defaultProps = {
   image: "",
   description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos asperiores, nobis nulla, quis atque minus non, soluta vitae eligendi iure nemo totam sequi. Consequuntur ut neque quis! Aspernatur, tempora qui.",
   alt: "Background Image",
-  _tag: "content"
+  _tag: "content-image"
 };

@@ -64,3 +64,7 @@ export default function ContactForm() {
     </section>
   );
 }
+
+ContactForm.defaultProps = {
+  _tag: "form",
+};

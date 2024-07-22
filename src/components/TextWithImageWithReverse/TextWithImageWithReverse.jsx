@@ -67,5 +67,5 @@ TextWithImageWithReverse.defaultProps = {
       alt: "Second Image Alt Text",
     },
   ],
-  _tag: "content"
+  _tag: "content-image"
 };

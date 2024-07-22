@@ -99,5 +99,5 @@ TwoByTwoTitleWithImage.defaultProps = {
       alt: "",
     },
   ],
-  _tag: "content",
+  _tag: "content-image",
 };
